@@ -11,9 +11,9 @@ type: page
 
 ## 工具
 
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
+* [cron](https://cron.qqe2.com/)
 
-    生成 box-shadow 的工具。
+    生成 cron表达式 的工具。
 
 * [gradient-generator](http://www.cssmatic.com/gradient-generator)
 
