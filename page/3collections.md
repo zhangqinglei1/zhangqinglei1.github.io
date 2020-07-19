@@ -11,7 +11,7 @@ type: page
 
 ## 工具
 
-* [cron](https://cron.qqe2.com/)
+* [cron](https://cron.qqe2.com/){:target="_blank"}
 
     生成 cron表达式 的工具。
 
