@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "redis性能压力分析测试"
+date:   2020-07-23 19:00:00
+categories: java
+tags: java
+excerpt: java对象在内存中的存储分析
+mathjax: true
+---
+
+最近遇到了个redis性能的问题，导致对外提供接口在并发大量的时候超时(超时30秒),因此讲述一下redis实际应用中的性能压力分析。
+
