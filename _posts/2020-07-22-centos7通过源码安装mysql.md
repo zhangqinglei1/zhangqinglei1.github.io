@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "java对象在内存中的存储分析"
+title:  "在centos7.2 X64位上安装mysql 笔记"
 date:   2020-07-22 18:14:54
 categories: java
 tags: java
