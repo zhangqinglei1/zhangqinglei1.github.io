@@ -1,5 +1,6 @@
+---
 layout: post
-title:  "centos7.2 X64位上安装mysql 笔记"
+title:  "java对象在内存中的存储分析"
 date:   2020-07-22 18:14:54
 categories: java
 tags: java
@@ -10,7 +11,7 @@ mathjax: true
 * content
 {:toc}
 
-在centos7.2 X64位上安装mysql 笔记
+## 在centos7.2 X64位上安装mysql 笔记
 
 1.创建两个文件
 cd /
