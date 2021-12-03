@@ -5,6 +5,10 @@ categories: java
 tags: java
 excerpt: java对象在内存中的存储分析
 mathjax: true
+---
+
+* content
+{:toc}
 
 在centos7.2 X64位上安装mysql 笔记
 
