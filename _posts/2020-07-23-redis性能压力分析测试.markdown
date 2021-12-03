@@ -10,3 +10,8 @@ mathjax: true
 
 最近遇到了个redis性能的问题，导致对外提供接口在并发大量的时候超时(超时30秒),因此讲述一下redis实际应用中的性能压力分析。
 
+redis的压力测试工具redis-benchmark,是redis自带的一个工具
+
+压测命令：**redis-benchmark -h 127.0.0.1 -p 6379 -c 50 -n 10000**
+
+![img](https://images2017.cnblogs.com/blog/707331/201802/707331-20180201145503750-901697180.png)
