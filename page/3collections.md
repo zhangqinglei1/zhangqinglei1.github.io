@@ -8,6 +8,13 @@ type: page
 
 * content
 {:toc}
+## 公共
+
+- [印记](https://redis.io/){:target="https://docschina.org/"}
+
+  印计
+
+  针对前端的一个收藏网站
 
 ## 中间件
 

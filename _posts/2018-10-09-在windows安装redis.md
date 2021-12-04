@@ -52,7 +52,7 @@ maxmemory 1024000000 设置缓存
 
 redis-server.exe --service-install redis.windows.conf
 
-会发现有如下
+
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0921/102856_312e1326_626204.png)
 
