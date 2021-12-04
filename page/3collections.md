@@ -10,9 +10,7 @@ type: page
 {:toc}
 ## 公共
 
-- [印记](https://redis.io/){:target="https://docschina.org/"}
-
-  印计
+- [印记](https://docschina.org/){:target="_blank"}
 
   针对前端的一个收藏网站
 
@@ -20,7 +18,6 @@ type: page
 
 - [Redis](https://redis.io/){:target="_blank"}
 
-    Redis
 
 ## 工具
 
