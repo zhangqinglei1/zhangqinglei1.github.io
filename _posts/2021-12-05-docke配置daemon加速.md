@@ -2,8 +2,8 @@
 layout: post
 title:  "docke配置daemon加速"
 date:   2021-12-05 20:00:00
-categories: Docker
-tags: Docker
+categories: Mysql
+tags: Mysql
 excerpt: docke配置daemon加速
 mathjax: true
 
