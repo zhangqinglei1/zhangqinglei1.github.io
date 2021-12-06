@@ -6,6 +6,7 @@ categories: k8s
 tags: k8s
 excerpt: k8s中dashboard权限anonymous问题
 mathjax: true
+
 ---
 
 在安装kubernetes-dashboard的时候，低版本中可能会有system-anonymons 权限问题
