@@ -29,7 +29,8 @@ html {
 body {
     font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
     color: #333;
-    background-image: url(http://www.51pptmoban.com/d/file/2014/05/13/5124ee28759d3dcb61d04179ac509568.jpg);
+	background-image: url(http://www.51pptmoban.com/d/file/2014/05/13/5124ee28759d3dcb61d04179ac509568.jpg)
+    background-attachment: fixed;
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
