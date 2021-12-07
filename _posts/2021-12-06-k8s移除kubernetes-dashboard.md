@@ -9,6 +9,8 @@ mathjax: true
 
 ---
 
+## 介绍
+
 在安装kubernetes-dashboard的时候，低版本中可能会有system-anonymons 权限问题
 
 获取POD，进行日志查看
