@@ -6,7 +6,6 @@ categories: k8s
 tags: k8s
 excerpt: k8s中dashboard权限anonymous问题
 mathjax: true
-
 ---
 
 ## 介绍

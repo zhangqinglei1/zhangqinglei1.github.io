@@ -6,7 +6,6 @@ categories: 持续集成
 tags: 持续集成
 excerpt: Artifactory仓库的管理功能
 mathjax: true
-
 ---
 
 ## 1.artifactory的介绍

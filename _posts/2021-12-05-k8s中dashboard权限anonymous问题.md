@@ -6,7 +6,6 @@ categories: k8s
 tags: k8s
 excerpt: k8s移除kubernetes-dashboard
 mathjax: true
-
 ---
 
 在安装kubernetes-dashboard的时候，可能会出现dashboard版本和kubernetes不一致的问题，具体的版本对应关系请查看
