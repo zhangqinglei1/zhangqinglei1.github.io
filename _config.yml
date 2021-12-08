@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 张清磊的博客 | Hux Blog
+title: Epoch Blog
+SEOTitle: 张清磊的博客 | Epoch Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: zhangqinglei@163.com
 description: "这里张清磊个人博客，与你一起发现更大的世界。"
 keyword: "张清磊"
-url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://zhangqinglei1.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -36,7 +36,6 @@ anchorjs: true                          # if you want to customize anchor. check
 plugins: [jekyll-paginate]
 
 
-
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
@@ -63,13 +62,7 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-
-
+ba_track_id: [123466]
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -77,11 +70,9 @@ sidebar-about-description: "张清磊"
 sidebar-avatar: /img/avatar-hux.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
 
 
 # Progressive Web Apps
