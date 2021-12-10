@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "SpringBoot服务一种打包技术"
+title:  "Springboot2使用Actuator监控"
 date:   2021-12-11 20:14:54
 categories: SpringBoot
 tags: SpringBoot
-excerpt: SpringBoot服务一种打包技术
+excerpt: Springboot2使用Actuator监控
 mathjax: true
 
 ---
