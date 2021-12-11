@@ -1,11 +1,11 @@
 ---
 
 layout: post
-title:  "Springboot2使用Actuator监控"
-date:   2021-12-12 20:14:54
+title:  "SpringBoot2采集Actuator监控数据"
+date:   2021-12-11 20:14:54
 categories: SpringBoot
 tags: SpringBoot
-excerpt: Springboot2使用Actuator监控
+excerpt: SpringBoot2采集Actuator监控数据
 mathjax: true
 
 ---
