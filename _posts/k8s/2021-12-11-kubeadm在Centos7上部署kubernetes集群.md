@@ -177,7 +177,7 @@ yum makecache
 
 本地安装k8s1.21版本
 
-查看[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes):target="_blank"}的官方的CHANGELOG
+查看官方[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes){:target="_blank"}的CHANGELOG
 
 [https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.21.md](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.21.md){:target="_blank"}
 
