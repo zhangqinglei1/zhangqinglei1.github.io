@@ -380,7 +380,7 @@ Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 
 ## 在k8s集群中安装kubernetes-dashboard
 
-安装
+### 安装
 
 该操作仅在master节点
 
@@ -492,6 +492,8 @@ NAME                                        READY   STATUS    RESTARTS   AGE
 dashboard-metrics-scraper-c45b7869d-fk7zj   1/1     Running   0          27m
 kubernetes-dashboard-576cb95f94-5bcdt       1/1     Running   0          27m
 ```
+
+### 认证创建
 
 创建一个认证机制，执行如下命令，创建一个ServiceAccount用户dashboard-admin：
 
