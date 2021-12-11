@@ -65,7 +65,7 @@ systemctl start ntpd
 
 选定主服务器master作为ntp服务器地址，保证node和主服务器时间一致。
 
-#### 在ntp_sever 和 ntp_client均需要开放123/udp端口
+**在ntp_sever 和 ntp_client均需要开放123/udp端口**
 
 ### 3.设置SSH互通
 
