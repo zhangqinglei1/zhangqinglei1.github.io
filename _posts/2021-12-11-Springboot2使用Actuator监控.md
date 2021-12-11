@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title:  "Springboot2使用Actuator监控"
 date:   2021-12-11 20:14:54
@@ -28,7 +29,7 @@ SpringBoot自带监控功能Actuator，可以帮助实现对程序内部运行�
 
 以下是所有的访问链接
 
-如果要设置启用所有的
+如果要设置启用所有的，或者可以启用部分["health","info"]
 
 ```
 management:
