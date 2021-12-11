@@ -481,7 +481,7 @@ https://192.168.19.135:30000/#/login
 
 如下
 
-![dashboard](img/k8s/dashboard.png)
+![dashboard](https://zhangqinglei1.github.io/img/k8s/dashboard.png)
 
 访问dashboard需要认证，查看dashboard的pod
 
