@@ -10,7 +10,7 @@ mathjax: true
 
 ## 1.artifactory的介绍
 
-此部分转载于：https://blog.csdn.net/afandaafandaafanda/article/details/81735013
+此部分转载于：[https://blog.csdn.net/afandaafandaafanda/article/details/81735013](https://blog.csdn.net/afandaafandaafanda/article/details/81735013){:target="_blank"}
 
 Jfrog(这是公司名）的Artifactory是一款**Maven仓库服务端软件**，可以用来在内网搭建maven仓库，供公司内部公共库的上传和发布，以提高公共代码使用的便利性。
 

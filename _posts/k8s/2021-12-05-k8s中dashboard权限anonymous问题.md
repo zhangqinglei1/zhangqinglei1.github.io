@@ -10,7 +10,7 @@ mathjax: true
 
 在安装kubernetes-dashboard的时候，可能会出现dashboard版本和kubernetes不一致的问题，具体的版本对应关系请查看
 
-https://github.com/kubernetes/dashboard/releases
+[https://github.com/kubernetes/dashboard/releases](https://github.com/kubernetes/dashboard/releases){:target="_blank"}
 
 因此需要卸载掉dashboard
 

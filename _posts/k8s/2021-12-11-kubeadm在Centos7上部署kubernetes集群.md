@@ -380,7 +380,7 @@ Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 
 ## 在k8s集群中安装kubernetes-dashboard
 
-### 安装
+### 1.安装dashboard
 
 该操作仅在master节点
 
@@ -463,7 +463,7 @@ dashboard-metrics-scraper   ClusterIP   10.10.94.203    <none>        8000/TCP  
 kubernetes-dashboard        NodePort    10.10.211.165   <none>        443:30000/TCP   63s
 ```
 
-访问地址：http://NodeIP:30000
+访问地址：https://NodeIP:30000，这里随机任意一个IP均可访问
 
 创建service account并绑定默认cluster-admin管理员集群角色：
 
@@ -493,7 +493,7 @@ dashboard-metrics-scraper-c45b7869d-fk7zj   1/1     Running   0          27m
 kubernetes-dashboard-576cb95f94-5bcdt       1/1     Running   0          27m
 ```
 
-### 认证创建
+### 2.认证创建
 
 创建一个认证机制，执行如下命令，创建一个ServiceAccount用户dashboard-admin：
 
