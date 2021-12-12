@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "kubeadm在Centos7上部署kubernetes集群.md"
+title:  "kubeadm在Centos7上部署kubernetes集群"
 date:   2021-12-11 22:14:54
 categories: k8s
 tags: k8s
-excerpt: kubeadm在Centos7上部署kubernetes集群.md
+excerpt: kubeadm在Centos7上部署kubernetes集群
 mathjax: true
 ---
 
