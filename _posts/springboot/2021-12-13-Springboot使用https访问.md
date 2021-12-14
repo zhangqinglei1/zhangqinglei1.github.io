@@ -376,7 +376,7 @@ public class HttpsConfig {
 }
 ```
 
-SpringBoot同时支持Http和Https
+## SpringBoot同时支持Http和Https
 
 有俩种版本，1是让应用自动支持http，然后手动配置对Https的支持，2是配置自动支持https，如上面，然后让自动支持http
 
