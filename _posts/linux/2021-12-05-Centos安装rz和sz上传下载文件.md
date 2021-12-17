@@ -2,8 +2,8 @@
 layout: post
 title:  "CentOS 安装rz和sz命令 lrzsz"
 date:   2021-12-05 20:00:00
-categories: Docker
-tags: Docker
+categories: Linux
+tags: Linux
 excerpt: CentOS 安装rz和sz命令 lrzsz
 mathjax: true
 
