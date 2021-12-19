@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "docker基础java镜像制作"
+title:  "dockerFile的制作和使用"
 date:   2021-12-19 18:00:00
 categories: Docker
 tags: Docker
-excerpt: docker基础java镜像制作
+excerpt: dockerFile的制作和使用
 mathjax: true
 ---
 * content
