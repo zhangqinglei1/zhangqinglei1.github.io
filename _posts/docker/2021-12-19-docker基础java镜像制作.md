@@ -2,8 +2,8 @@
 layout: post
 title:  "docker基础java镜像制作"
 date:   2021-12-19 18:00:00
-categories: Mysql
-tags: Mysql
+categories: Docker
+tags: Docker
 excerpt: docker基础java镜像制作
 mathjax: true
 ---
