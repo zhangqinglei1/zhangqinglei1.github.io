@@ -32,6 +32,75 @@ Artifactory 本地仓库用来存储本地构建产出的软件制品。本地�
 分发仓库
 分发仓库通过JFrog Bintray SaaS服务满足软件制品公网分发的需求，提供默认的全球CDN加速服务。
 
+## 2.jfrog-artifactory-oss的安装
+
+官方下载地址：
+
+https://www.jfrogchina.com/open-source/
+
+### 1.yum安装
+
+通过yum方式安装jfrog，比较简单。需要下载jfrog的yum仓库源，然后进行安装即可，如下：
+
+```
+wget -O /etc/yum.repos.d/frog-artifactory.repo https://bintray.com/jfrog/artifactory-rpms/rpm
+yum -y install jfrog-artifactory-oss
+systemctl start artifactory.service
+systemctl status artifactory.service
+
+ps -ef |grep jfrog
+sudo netstat -tlunp | grep 51306
+```
+
+### 2.zip包安装
+
+zip包下载地址，选择下载的版本:
+
+[https://bintray.com/jfrog/artifactory/jfrog-artifactory-oss-zip](https://www.oschina.net/action/GoToLink?url=https%3A%2F%2Fbintray.com%2Fjfrog%2Fartifactory%2Fjfrog-artifactory-oss-zip)
+
+也可以使用
+
+wget “[https://bintray.com/jfrog/artifactory/download_file?file_path=jfrog-artifactory-oss-6.12.2.zip](https://www.oschina.net/action/GoToLink?url=https%3A%2F%2Fbintray.com%2Fjfrog%2Fartifactory%2Fdownload_file%3Ffile_path%3Djfrog-artifactory-oss-6.12.2.zip)”
+
+上传到服务器后解压
+
+unzip -q jfrog-artifactory-oss-6.12.2.zip
+
+进入目录后，启动程序
+
+```
+./bin/artifactoryctl start
+
+ps -ef |grep jfrog
+sudo netstat -tlunp | grep 15557
+```
+
+访问
+
+http://192.168.19.134:8082/ui/login/
+
+### 3.rpm安装
+
+先在上面地址下载rpm包，或者
+
+```
+wget “https://bintray.com/jfrog/artifactory-rpms/download_file?file_path=jfrog-artifactory-oss-6.12.2.rpm” -O jfrog-artifactory-oss.rpm
+yum -y install jfrog-artifactory-oss.rpm
+
+查看
+rpm -qa |grep jfrog
+rpm -ql jfrog-artifactory-oss
+systemctl start artifactory.service
+systemctl status artifactory.service
+
+```
+
+
+
+## 3.artifactory的使用
+
+jfrog默认的端口是8081，默认的用户名和密码是:admin/password。
+
 下面介绍下artifactory和jenkins构建的关联
 
 ```
